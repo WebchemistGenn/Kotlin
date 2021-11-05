@@ -26,7 +26,11 @@ class Test: Person {
 
 fun main() {
     val genn = Person("Genn")
+    val test = Test("Test", 30)
     genn.eat()
+    genn.sleep()
+    test.eat()
+    test.sleep()
 
     println("my name is ${genn.name}")
 }
